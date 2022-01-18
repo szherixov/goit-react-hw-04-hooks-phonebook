@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.button {
+  display: flex;
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #00f;
+  color: #f0f8ff;
+  cursor: pointer;
+  font-weight: 500;
+}
+.button:hover {
+  background-color: red;
+}
